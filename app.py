@@ -39,5 +39,5 @@ def messages():
     return '200'
 
 
-if __name__ == '__main__':
-    app.run('localhost',5000)
+# if __name__ == '__main__':
+#     app.run('localhost',5000)
