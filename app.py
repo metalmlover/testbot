@@ -7,7 +7,7 @@ from qnabot import QnaBot
 app = Flask(__name__)
 loop = asyncio.get_event_loop()
 
-botsettings = BotFrameworkAdapterSettings("","")
+botsettings = BotFrameworkAdapterSettings("1e73c813-4336-4621-ac2f-921109e76492","RGK7Q~jaqNYBH7A~oZzRVl8fu2v54C1Ye8d-.")
 botadapter = BotFrameworkAdapter(botsettings)
 
 CONMEMORY = ConversationState(MemoryStorage())
