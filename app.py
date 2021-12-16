@@ -13,6 +13,9 @@ botadapter = BotFrameworkAdapter(botsettings)
 CONMEMORY = ConversationState(MemoryStorage())
 botdialog = QnaBot()
 
+@app.route("/")
+def hello():
+    return {"result": "You successfully created your first route!"}
 
 @app.route("/api/messages",methods=["POST"])
 def messages():
